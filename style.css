@@ -1,0 +1,31 @@
+ 
+#bulb{
+     width:400px;
+    height: 600px;
+    margin-left: auto;
+     margin-right: auto;
+                
+              
+ }
+div{
+    width:50%;
+    margin-left:35%;
+ }
+button{
+    padding:10px 20px 10px 20px;
+    color:yellow;
+    font-size: 20px;
+    background-color: blue;
+ }
+#on{
+     margin-left:40%;
+    margin-top:20px;
+ }
+ #on:hover , 
+ #off:hover{
+    background-color: yellow;
+    color:blue;
+    transition: all 0.5s ease;
+    transition
+ }
+           

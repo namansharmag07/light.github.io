@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Bulb on|off</title>
+        <link rel ="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div>
+            <img id="bulb" src="off.jpg"><br>
+            
+        </div>
+        <button  id="on" class="on" onclick="light(1)">Turn off</button>
+        <button id="off" onclick="light(0)">Turn on</button>
+        <script>
+            var pic;
+            function light(num){
+                
+                if(num == 1){
+                    pic = "off.jpg";
+                }
+                else{
+                    pic = "on.jpg";
+                }
+                document.getElementById("bulb").src = pic;
+               
+            }
+            
+        </script>
+    </body>
+</html>
